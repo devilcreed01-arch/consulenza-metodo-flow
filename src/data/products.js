@@ -1,0 +1,148 @@
+export const PRODUCT_CATEGORIES = {
+  DETERSIONE: "Per pulire senza aggredire",
+  IDRATAZIONE: "Per nutrire la porosità",
+  STYLING_FINISH: "Per definire senza effetto crespo",
+  MANTENIMENTO_COLORE: "Prolungare il colore",
+};
+
+export const CATEGORY_ORDER = [
+  "DETERSIONE",
+  "IDRATAZIONE",
+  "STYLING_FINISH",
+  "MANTENIMENTO_COLORE",
+];
+
+export const PRODUCTS = [
+  // DETERSIONE
+  {
+    id: "pm-moringa-wash",
+    name: "Moringa Wash",
+    category: "DETERSIONE",
+    brand: "Philip Martin's",
+    instructions: "Applicare sui capelli bagnati, massaggiare delicatamente il cuoio capelluto. Risciacquare. Ideale per capelli ricci, rimuove tossine e inquinamento.",
+    imagePath: null,
+  },
+  {
+    id: "pm-purifying-wash",
+    name: "Purifying Wash",
+    category: "DETERSIONE",
+    brand: "Philip Martin's",
+    instructions: "Applicare sui capelli bagnati, massaggiare delicatamente e risciacquare. Ideale per una pulizia profonda prima del trattamento.",
+    imagePath: null,
+  },
+  {
+    id: "pm-babassu-wash",
+    name: "Babassu Wash",
+    category: "DETERSIONE",
+    brand: "Philip Martin's",
+    instructions: "Usare come shampoo quotidiano. Massaggiare dalla radice alle punte, lasciare in posa 1-2 minuti, risciacquare.",
+    imagePath: null,
+  },
+  {
+    id: "pm-calming-wash",
+    name: "Calming Wash",
+    category: "DETERSIONE",
+    brand: "Philip Martin's",
+    instructions: "Shampoo detossificante per cuoio capelluto sensibile. Applicare su capelli bagnati, massaggiare delicatamente il cuoio capelluto, risciacquare. Ideale per scalpi irritati o con forfora.",
+    imagePath: null,
+  },
+  // IDRATAZIONE
+  {
+    id: "pm-babassu-rinse",
+    name: "Babassu Rinse",
+    category: "IDRATAZIONE",
+    brand: "Philip Martin's",
+    instructions: "Dopo lo shampoo, applicare uniformemente sulle lunghezze. Lasciare in posa qualche minuto. Risciacquare. Ideale per capelli sottili e trattati.",
+    imagePath: null,
+  },
+  {
+    id: "pm-scalp-benefit",
+    name: "Scalp Benefit",
+    category: "IDRATAZIONE",
+    brand: "Philip Martin's",
+    instructions: "Maschera purificante per cuoio capelluto sensibile. Applicare sulle radici, massaggiare, lasciare in posa 5-10 minuti. Risciacquare.",
+    imagePath: null,
+  },
+  {
+    id: "pm-moringa-rinse",
+    name: "Moringa Rinse",
+    category: "IDRATAZIONE",
+    brand: "Philip Martin's",
+    instructions: "Dopo lo shampoo, applicare uniformemente. Lasciare in posa 3-5 minuti. Risciacquare con acqua tiepida. Protegge da inquinamento.",
+    imagePath: null,
+  },
+  // STYLING
+  {
+    id: "pm-potion-cream",
+    name: "Potion Cream",
+    category: "STYLING_FINISH",
+    brand: "Philip Martin's",
+    instructions: "Applicare su capelli umidi dopo il lavaggio. Distribuire dalle punte verso l'alto. Non risciacquare. Styling come desiderato.",
+    imagePath: null,
+  },
+  {
+    id: "pm-moringa-curl",
+    name: "Moringa Curl",
+    category: "STYLING_FINISH",
+    brand: "Philip Martin's",
+    instructions: "Gel definente per ricci. Applicare su capelli umidi lungo le lunghezze. Procedere con l'asciugatura. Definisce i ricci senza appesantire.",
+    imagePath: null,
+  },
+  {
+    id: "pm-3-ways",
+    name: "3 Ways",
+    category: "STYLING_FINISH",
+    brand: "Philip Martin's",
+    instructions: "Spray/gel districante e volumizzante. Ideale per capelli fini. Applicare su capelli umidi per volume e districatura istantanea.",
+    imagePath: null,
+  },
+  {
+    id: "pm-natural-mousse",
+    name: "NaturalMousse",
+    category: "STYLING_FINISH",
+    brand: "Philip Martin's",
+    instructions: "Mousse fissaggio medio. Applicare su capelli umidi, distribuire uniformemente. Asciugare come desiderato. Aggiunge corpo e luminosità.",
+    imagePath: null,
+  },
+  {
+    id: "pm-infinito",
+    name: "Infinito",
+    category: "STYLING_FINISH",
+    brand: "Philip Martin's",
+    instructions: "Olio idratante. Applicare poche gocce su capelli umidi o asciutti. Protegge da sole e cloro. Controlla l'effetto crespo.",
+    imagePath: null,
+  },
+  {
+    id: "pm-fusion",
+    name: "Fusion",
+    category: "STYLING_FINISH",
+    brand: "Philip Martin's",
+    instructions: "Protezione termica. Applicare su capelli umidi prima dell'asciugatura o dello styling a caldo. Protegge da phon e piastre.",
+    imagePath: null,
+  },
+  // MANTENIMENTO COLORE (Kerasilk)
+  {
+    id: "kerasilk-color-shampoo",
+    name: "Color Protecting Shampoo",
+    category: "MANTENIMENTO_COLORE",
+    brand: "Kerasilk",
+    instructions: "Shampoo protettivo per capelli colorati. Deterge delicatamente mantenendo la vivacità del colore. Applicare sui capelli bagnati, massaggiare, risciacquare.",
+    imagePath: null,
+  },
+  {
+    id: "kerasilk-color-conditioner",
+    name: "Color Protecting Conditioner",
+    category: "MANTENIMENTO_COLORE",
+    brand: "Kerasilk",
+    instructions: "Balsamo idratante per capelli colorati. Previene lo sbiadimento prematuro, ripristina l'elasticità. Applicare dopo lo shampoo, lasciare in posa qualche minuto, risciacquare.",
+    imagePath: null,
+  },
+  {
+    id: "kerasilk-color-sealer",
+    name: "Color Sealer",
+    category: "MANTENIMENTO_COLORE",
+    brand: "Kerasilk",
+    instructions: "Sigillante per capelli colorati. Sigilla e protegge il colore. Seguire le istruzioni sulla confezione.",
+    imagePath: null,
+  },
+];
